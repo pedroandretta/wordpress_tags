@@ -1,0 +1,43 @@
+.tfd-dashboard {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.tfd-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tfd-input-group {
+    width: 100%;
+}
+
+.tfd-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tfd-input-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tfd-input-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.tfd-input-group label input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+#tfd-search-form .button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
